@@ -13,9 +13,9 @@
     <div class="topnav">
       <img class = "imga" src="img/tlogo.png">
       <a class="active" href="#home">Home</a>
-      <a href="#new">News</a>
-      <a href="contacts.html">Contact</a>
-      <a href="#about">About</a>
+      <a href="#new">Account</a>
+      <a href="contacts.html">Contacts</a>
+      <a href="#about">Report</a>
       <a href="#" class="logout">Log Out</a>
       <input type="text" class="cd-search table-filter" data-table="order-table" placeholder="Search" />
     </div>
@@ -45,6 +45,7 @@
                 /* border: 1px solid;
                 border-color: black;
                 border-collapse: collapse; */
+                /* box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4); */
                 font-size: 12px;
             }
         </style>
@@ -71,13 +72,15 @@
                 font-size: 12px;
             }
         </style>
-      </div>
+
+    </div>
    <!-- <input type="text" class="cd-search table-filter" data-table="order-table" placeholder="Item to filter.." /> -->
    <table class="cd-table order-table table">
      <thead>
        <tr class = "head">
          <th>Company ID</th>
-         <th>Company Name</th>
+         <th>Account</th>
+         <th>Account Status</th>
          <th>Website</th>
          <th>Sector</th>
          <th style="width: 6%;">City</th>
@@ -86,56 +89,56 @@
        </tr>
       </thead>
       <tbody>
-         <tr><td>TA00001</td><td><a href=pages/TA00001.html>Aarti Drugs Limited</a></td><td><a href=https://www.aartidrugs.co.in>www.aartidrugs.co.in</a></td><td>Advanced Manufacturing</td><td>Mumbai</td><td>Maharashtra</td></tr>
-         <tr><td>TA00002</td><td><a href=pages/TA00002.html>ACG</a></td><td><a href=https://www.acg-world.com>www.acg-world.com</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
-         <tr><td>TA00003</td><td><a href=pages/TA00003.html>AGC Networks</a></td><td><a href=https://www.agcnetworks.com>www.agcnetworks.com</a></td><td>Technology</td><td>Mumbai</td><td>Maharashtra</td></tr>
-         <tr><td>TA00004</td><td><a href=pages/TA00004.html>Ajanta Pharma Ltd</a></td><td><a href=https://www.ajantapharma.com>www.ajantapharma.com</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
-         <tr><td>TA00005</td><td><a href=pages/TA00005.html>Alkem Laboratories Ltd.</a></td><td><a href=https://www.alkemlabs.com>www.alkemlabs.com</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
-         <tr><td>TA00006</td><td><a href=pages/TA00006.html>Anthem Biosciences Private Limited</a></td><td><a href=https://www.anthembio.com>www.anthembio.com</a></td><td>Life Sciences</td><td>Bangalore</td><td>Karnataka </td></tr>
-         <tr><td>TA00007</td><td><a href=pages/TA00007.html>Aurobindo Pharma Ltd</a></td><td><a href=https://www.aurobindo.com>www.aurobindo.com</a></td><td>Life Sciences</td><td>Hyderabad </td><td>Telangana </td></tr>
-         <tr><td>TA00008</td><td><a href=pages/TA00008.html>Avra Labs P Ltd</a></td><td><a href=https://www.avralab.com>www.avralab.com</a></td><td>Life Sciences</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00009</td><td><a href=pages/TA00009.html>Azure Power</a></td><td><a href=https://www.azurepower.com>www.azurepower.com</a></td><td>Clean Energy</td><td>New Delhi </td><td>Delhi </td></tr>
-         <tr><td>TA00010</td><td><a href=pages/TA000010.html>Bilcare Limited</a></td><td><a href=https://www.bilcare.com>www.bilcare.com</a></td><td>Life Sciences</td><td>Pune</td><td>Maharashtra</td></tr>
-         <tr><td>TA00011</td><td><a href=pages/TA000011.html>Biocon</a></td><td><a href=https://www.biocon.com>www.biocon.com</a></td><td>Life Sciences</td><td>Bangalore</td><td>Karnataka </td></tr>
-         <tr><td>TA00012</td><td><a href=pages/TA000012.html>BitWise Solutions Pvt. Ltd.</a></td><td><a href=https://www.bitwiseglobal.com>www.bitwiseglobal.com</a></td><td>Technology</td><td>Pune</td><td>Maharashtra</td></tr>
-         <tr><td>TA00013</td><td><a href=pages/TA000013.html>Borosil Renewables Ltd.</a></td><td><a href=https://www.borosilrenewables.com>www.borosilrenewables.com</a></td><td>Clean Energy</td><td>Mumbai </td><td>Maharashtra</td></tr>
-         <tr><td>TA00014</td><td><a href=pages/TA000014.html>CES Limited</a></td><td><a href=https://www.cesltd.com>www.cesltd.com</a></td><td>Technology</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00015</td><td><a href=pages/TA000015.html>Cipla</a></td><td><a href=https://www.cipla.com>www.cipla.com</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
-         <tr><td>TA00016</td><td><a href=pages/TA000016.html>Citius Tech</a></td><td><a href=https://www.citiustech.com>www.citiustech.com</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
-         <tr><td>TA00017</td><td><a href=pages/TA000017.html>Delta Intech</a></td><td><a href=https://www.deltaintech.com>www.deltaintech.com</a></td><td>Technology</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00018</td><td><a href=pages/TA000018.html>Divi's Laboratories Limited</a></td><td><a href=https://www.divislabs.com>www.divislabs.com</a></td><td>Life Sciences</td><td>Hyderabad </td><td>Andhra Pradesh</td></tr>
-         <tr><td>TA00019</td><td><a href=pages/TA000019.html>Dr. Reddy'S Bio-Sciences Limited</a></td><td><a href=https://www.drreddys.com>www.drreddys.com</a></td><td>Life Sciences</td><td>Hyderabad </td><td>Telangana</td></tr>
-         <tr><td>TA00020</td><td><a href=pages/TA000020.html>Enlume Technologies</a></td><td><a href=https://www.enlume.com>www.enlume.com</a></td><td>Technology</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00021</td><td><a href=pages/TA000021.html>Enzen</a></td><td><a href=https://www.enzen.com>www.enzen.com</a></td><td>Clean Energy</td><td>Bangalore</td><td>Karnataka </td></tr>
-         <tr><td>TA00022</td><td><a href=pages/TA000022.html>Fission Computer Labs Pvt Ltd</a></td><td><a href=https://www.fissionlabs.in>www.fissionlabs.in</a></td><td>Technology</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00023</td><td><a href=pages/TA000023.html>Granules India Limited</a></td><td><a href=https://www.granulesindia.com>www.granulesindia.com</a></td><td>Life Sciences</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00024</td><td><a href=pages/TA000024.html>Greenko Group</a></td><td><a href=https://www.greenkogroup.com>www.greenkogroup.com</a></td><td>Clean Energy</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00025</td><td><a href=pages/TA000025.html>Hero Future Energies</a></td><td><a href=https://www.herofutureenergies.com>www.herofutureenergies.com</a></td><td>Clean Energy</td><td>New Delhi</td><td>Delhi</td></tr>
-         <tr><td>TA00026</td><td><a href=pages/TA000026.html>Indoco Remedies Limited</a></td><td><a href=https://www.indoco.com>www.indoco.com</a></td><td>Life Sciences</td><td>Mumbai </td><td>Maharashtra </td></tr>
-         <tr><td>TA00027</td><td><a href=pages/TA000027.html>Innominds</a></td><td><a href=https://www.innominds.com>www.innominds.com</a></td><td>Technology</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00028</td><td><a href=pages/TA000028.html>Ipca Laboratories Limited</a></td><td><a href=https://www.ipca.com>www.ipca.com</a></td><td>Life Sciences</td><td>Mumbai </td><td>Maharashtra</td></tr>
-         <tr><td>TA00029</td><td><a href=pages/TA000029.html>Jagsonpal Pharmaceuticals Ltd.</a></td><td><a href=https://www.jagsonpal.com>www.jagsonpal.com</a></td><td>Life Sciences</td><td>New Delhi </td><td>New Delhi </td></tr>
-         <tr><td>TA00030</td><td><a href=pages/TA000030.html>Kemwell Biopharma</a></td><td><a href=https://www.kemwellbiopharma.com>www.kemwellbiopharma.com</a></td><td>Life Sciences</td><td>Bangalore</td><td>Karnataka </td></tr>
-         <tr><td>TA00031</td><td><a href=pages/TA000031.html>Kore.ai</a></td><td><a href=https://www.kore.ai>www.kore.ai</a></td><td>Technology</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00032</td><td><a href=pages/TA000032.html>Laurus Labs</a></td><td><a href=https://www.lauruslabs.com>www.lauruslabs.com</a></td><td>Life Sciences</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00033</td><td><a href=pages/TA000033.html>Lee Pharma Limited</a></td><td><a href=https://leepharma.com>leepharma.com</a></td><td>Life Sciences</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00034</td><td><a href=pages/TA000034.html>Lupin India</a></td><td><a href=https://www.Lupin.com>www.Lupin.com</a></td><td>Life Sciences</td><td>Mumbai </td><td>Maharashtra</td></tr>
-         <tr><td>TA00035</td><td><a href=pages/TA000035.html>MANKIND PHARMA LTD</a></td><td><a href=https://www.mankindpharma.com>www.mankindpharma.com</a></td><td>Life Sciences</td><td>New Delhi</td><td>Delhi</td></tr>
-         <tr><td>TA00036</td><td><a href=pages/TA000036.html>MSN Laboratories Ltd.</a></td><td><a href=https://www.msnlabs.com>www.msnlabs.com</a></td><td>Life Sciences</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00037</td><td><a href=pages/TA000037.html>Natco Pharma</a></td><td><a href=https://www.natcopharma.co.in>www.natcopharma.co.in</a></td><td>Life Sciences</td><td>Hyderabad</td><td>Telangana</td></tr>
-         <tr><td>TA00038</td><td><a href=pages/TA000038.html>Nicholas Piramal (I) Ltd./ Roche Products Ltd.</a></td><td><a href=https://www.piramal.com>www.piramal.com</a></td><td>Life Sciences</td><td>Mumbai </td><td>Maharashtra</td></tr>
-         <tr><td>TA00039</td><td><a href=pages/TA000039.html>Panacea Biotec</a></td><td><a href=https://www.panaceabiotec.com>www.panaceabiotec.com</a></td><td>Life Sciences</td><td>New Delhi </td><td>New Delhi </td></tr>
-         <tr><td>TA00040</td><td><a href=pages/TA000040.html>Piramal Group</a></td><td><a href=https://www.piramal.com>www.piramal.com</a></td><td>Life Sciences</td><td>Mumbai </td><td>Maharashtra </td></tr>
-         <tr><td>TA00041</td><td><a href=pages/TA000041.html>Reliance New Energy</a></td><td><a href=https://www.ril.com>www.ril.com</a></td><td>Clean Energy</td><td>Mumbai</td><td>Maharashtra</td></tr>
-         <tr><td>TA00042</td><td><a href=pages/TA000042.html>ReNew Power</a></td><td><a href=https://www.renewpower.in>www.renewpower.in</a></td><td>Clean Energy</td><td>Gurgaon</td><td>Haryana</td></tr>
-         <tr><td>TA00043</td><td><a href=pages/TA000043.html>Serum Institute Of India Ltd.</a></td><td><a href=https://www.seruminstitute.com>www.seruminstitute.com</a></td><td>Life Sciences</td><td>Pune</td><td>Maharashtra</td></tr>
-         <tr><td>TA00044</td><td><a href=pages/TA000044.html>Sterling and Wilson Renewable Energy</a></td><td><a href=https://www.sterlingandwilsonre.com>www.sterlingandwilsonre.com</a></td><td>Clean Energy</td><td>Mumbai</td><td>Maharashtra</td></tr>
-         <tr><td>TA00045</td><td><a href=pages/TA000045.html>Strides</a></td><td><a href=https://www.strides.com>www.strides.com</a></td><td>Life Sciences</td><td>Bangalore</td><td>Karnataka </td></tr>
-         <tr><td>TA00046</td><td><a href=pages/TA000046.html>Sun Pharmaceuticals</a></td><td><a href=https://www.sunpharma.com>www.sunpharma.com</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
-         <tr><td>TA00047</td><td><a href=pages/TA000047.html>Suzlon Group</a></td><td><a href=https://www.suzlon.com>www.suzlon.com</a></td><td>Clean Energy</td><td>Pune</td><td>Maharashtra</td></tr>
-         <tr><td>TA00048</td><td><a href=pages/TA000048.html>Waaree Group</a></td><td><a href=https://www.waaree.com>www.waaree.com</a></td><td>Clean Energy</td><td>Mumbai </td><td>Maharashtra</td></tr>
-         <tr><td>TA00049</td><td><a href=pages/TA000049.html>Wockhardt Ltd.</a></td><td><a href=https://www.wockhardt.com>www.wockhardt.com</a></td><td>Life Sciences</td><td>Mumbai </td><td>Maharashtra </td></tr>
-         <tr><td>TA00050</td><td><a href=pages/TA000050.html>Zuventus Health Care Limited</a></td><td><a href=https://www.zuventus.co.in>www.zuventus.co.in</a></td><td>Life Sciences</td><td>Pune</td><td>Maharashtra</td></tr>          
+         <tr><td>TA00001</td><td><a href=pages/TA00001.html>Aarti Drugs Limited</a></td><td></td><td><a href=https://www.aartidrugs.co.in>www.aartidrugs.co.in</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
+         <tr><td>TA00002</td><td><a href=pages/TA00002.html>ACG</a></td><td></td><td><a href=https://www.acg-world.com>www.acg-world.com</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
+         <tr><td>TA00003</td><td><a href=pages/TA00003.html>AGC Networks</a></td><td></td><td><a href=https://www.agcnetworks.com>www.agcnetworks.com</a></td><td>Technology</td><td>Mumbai</td><td>Maharashtra</td></tr>
+         <tr><td>TA00004</td><td><a href=pages/TA00004.html>Ajanta Pharma Ltd</a></td><td></td><td><a href=https://www.ajantapharma.com>www.ajantapharma.com</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
+         <tr><td>TA00005</td><td><a href=pages/TA00005.html>Alkem Laboratories Ltd.</a></td><td></td><td><a href=https://www.alkemlabs.com>www.alkemlabs.com</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
+         <tr><td>TA00006</td><td><a href=pages/TA00006.html>Anthem Biosciences Private Limited</a></td><td></td><td><a href=https://www.anthembio.com>www.anthembio.com</a></td><td>Life Sciences</td><td>Bangalore</td><td>Karnataka </td></tr>
+         <tr><td>TA00007</td><td><a href=pages/TA00007.html>Aurobindo Pharma Ltd</a></td><td></td><td><a href=https://www.aurobindo.com>www.aurobindo.com</a></td><td>Life Sciences</td><td>Hyderabad </td><td>Telangana </td></tr>
+         <tr><td>TA00008</td><td><a href=pages/TA00008.html>Avra Labs P Ltd</a></td><td></td><td><a href=https://www.avralab.com>www.avralab.com</a></td><td>Life Sciences</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00009</td><td><a href=pages/TA00009.html>Azure Power</a></td><td></td><td><a href=https://www.azurepower.com>www.azurepower.com</a></td><td>Clean Energy</td><td>New Delhi </td><td>Delhi </td></tr>
+         <tr><td>TA00010</td><td><a href=pages/TA000010.html>Bilcare Limited</a></td><td></td><td><a href=https://www.bilcare.com>www.bilcare.com</a></td><td>Life Sciences</td><td>Pune</td><td>Maharashtra</td></tr>
+         <tr><td>TA00011</td><td><a href=pages/TA000011.html>Biocon</a></td><td></td><td><a href=https://www.biocon.com>www.biocon.com</a></td><td>Life Sciences</td><td>Bangalore</td><td>Karnataka </td></tr>
+         <tr><td>TA00012</td><td><a href=pages/TA000012.html>BitWise Solutions Pvt. Ltd.</a></td><td></td><td><a href=https://www.bitwiseglobal.com>www.bitwiseglobal.com</a></td><td>Technology</td><td>Pune</td><td>Maharashtra</td></tr>
+         <tr><td>TA00013</td><td><a href=pages/TA000013.html>Borosil Renewables Ltd.</a></td><td></td><td><a href=https://www.borosilrenewables.com>www.borosilrenewables.com</a></td><td>Clean Energy</td><td>Mumbai </td><td>Maharashtra</td></tr>
+         <tr><td>TA00014</td><td><a href=pages/TA000014.html>CES Limited</a></td><td></td><td><a href=https://www.cesltd.com>www.cesltd.com</a></td><td>Technology</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00015</td><td><a href=pages/TA000015.html>Cipla</a></td><td></td><td><a href=https://www.cipla.com>www.cipla.com</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
+         <tr><td>TA00016</td><td><a href=pages/TA000016.html>Citius Tech</a></td><td></td><td><a href=https://www.citiustech.com>www.citiustech.com</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
+         <tr><td>TA00017</td><td><a href=pages/TA000017.html>Delta Intech</a></td><td></td><td><a href=https://www.deltaintech.com>www.deltaintech.com</a></td><td>Technology</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00018</td><td><a href=pages/TA000018.html>Divi's Laboratories Limited</a></td><td></td><td><a href=https://www.divislabs.com>www.divislabs.com</a></td><td>Life Sciences</td><td>Hyderabad </td><td>Telangana</td></tr>
+         <tr><td>TA00019</td><td><a href=pages/TA000019.html>Dr. Reddy'S Bio-Sciences Limited</a></td><td></td><td><a href=https://www.drreddys.com>www.drreddys.com</a></td><td>Life Sciences</td><td>Hyderabad </td><td>Telangana</td></tr>
+         <tr><td>TA00020</td><td><a href=pages/TA000020.html>Enlume Technologies</a></td><td></td><td><a href=https://www.enlume.com>www.enlume.com</a></td><td>Technology</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00021</td><td><a href=pages/TA000021.html>Enzen</a></td><td></td><td><a href=https://www.enzen.com>www.enzen.com</a></td><td>Clean Energy</td><td>Bangalore</td><td>Karnataka </td></tr>
+         <tr><td>TA00022</td><td><a href=pages/TA000022.html>Fission Computer Labs Pvt Ltd</a></td><td></td><td><a href=https://www.fissionlabs.in>www.fissionlabs.in</a></td><td>Technology</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00023</td><td><a href=pages/TA000023.html>Granules India Limited</a></td><td></td><td><a href=https://www.granulesindia.com>www.granulesindia.com</a></td><td>Life Sciences</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00024</td><td><a href=pages/TA000024.html>Greenko Group</a></td><td></td><td><a href=https://www.greenkogroup.com>www.greenkogroup.com</a></td><td>Clean Energy</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00025</td><td><a href=pages/TA000025.html>Hero Future Energies</a></td><td></td><td><a href=https://www.herofutureenergies.com>www.herofutureenergies.com</a></td><td>Clean Energy</td><td>New Delhi</td><td>Delhi</td></tr>
+         <tr><td>TA00026</td><td><a href=pages/TA000026.html>Indoco Remedies Limited</a></td><td></td><td><a href=https://www.indoco.com>www.indoco.com</a></td><td>Life Sciences</td><td>Mumbai </td><td>Maharashtra </td></tr>
+         <tr><td>TA00027</td><td><a href=pages/TA000027.html>Innominds</a></td><td></td><td><a href=https://www.innominds.com>www.innominds.com</a></td><td>Technology</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00028</td><td><a href=pages/TA000028.html>Ipca Laboratories Limited</a></td><td></td><td><a href=https://www.ipca.com>www.ipca.com</a></td><td>Life Sciences</td><td>Mumbai </td><td>Maharashtra</td></tr>
+         <tr><td>TA00029</td><td><a href=pages/TA000029.html>Jagsonpal Pharmaceuticals Ltd.</a></td><td></td><td><a href=https://www.jagsonpal.com>www.jagsonpal.com</a></td><td>Life Sciences</td><td>New Delhi </td><td>New Delhi </td></tr>
+         <tr><td>TA00030</td><td><a href=pages/TA000030.html>Kemwell Biopharma</a></td><td></td><td><a href=https://www.kemwellbiopharma.com>www.kemwellbiopharma.com</a></td><td>Life Sciences</td><td>Bangalore</td><td>Karnataka </td></tr>
+         <tr><td>TA00031</td><td><a href=pages/TA000031.html>Kore.ai</a></td><td></td><td><a href=https://www.kore.ai>www.kore.ai</a></td><td>Technology</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00032</td><td><a href=pages/TA000032.html>Laurus Labs</a></td><td></td><td><a href=https://www.lauruslabs.com>www.lauruslabs.com</a></td><td>Life Sciences</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00033</td><td><a href=pages/TA000033.html>Lee Pharma Limited</a></td><td></td><td><a href=https://leepharma.com>leepharma.com</a></td><td>Life Sciences</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00034</td><td><a href=pages/TA000034.html>Lupin India</a></td><td></td><td><a href=https://www.Lupin.com>www.Lupin.com</a></td><td>Life Sciences</td><td>Mumbai </td><td>Maharashtra</td></tr>
+         <tr><td>TA00035</td><td><a href=pages/TA000035.html>Mankind Pharma Ltd</a></td><td></td><td><a href=https://www.mankindpharma.com>www.mankindpharma.com</a></td><td>Life Sciences</td><td>New Delhi</td><td>Delhi</td></tr>
+         <tr><td>TA00036</td><td><a href=pages/TA000036.html>MSN Laboratories Ltd.</a></td><td></td><td><a href=https://www.msnlabs.com>www.msnlabs.com</a></td><td>Life Sciences</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00037</td><td><a href=pages/TA000037.html>Natco Pharma</a></td><td></td><td><a href=https://www.natcopharma.co.in>www.natcopharma.co.in</a></td><td>Life Sciences</td><td>Hyderabad</td><td>Telangana</td></tr>
+         <tr><td>TA00038</td><td><a href=pages/TA000038.html>Nicholas Piramal (I) Ltd</a></td><td></td><td><a href=https://www.piramal.com>www.piramal.com</a></td><td>Life Sciences</td><td>Mumbai </td><td>Maharashtra</td></tr>
+         <tr><td>TA00039</td><td><a href=pages/TA000039.html>Panacea Biotec</a></td><td></td><td><a href=https://www.panaceabiotec.com>www.panaceabiotec.com</a></td><td>Life Sciences</td><td>New Delhi </td><td>New Delhi </td></tr>
+         <tr><td>TA00040</td><td><a href=pages/TA000040.html>Piramal Group</a></td><td></td><td><a href=https://www.piramal.com>www.piramal.com</a></td><td>Life Sciences</td><td>Mumbai </td><td>Maharashtra </td></tr>
+         <tr><td>TA00041</td><td><a href=pages/TA000041.html>Reliance New Energy</a></td><td></td><td><a href=https://www.ril.com>www.ril.com</a></td><td>Clean Energy</td><td>Mumbai</td><td>Maharashtra</td></tr>
+         <tr><td>TA00042</td><td><a href=pages/TA000042.html>ReNew Power</a></td><td></td><td><a href=https://www.renewpower.in>www.renewpower.in</a></td><td>Clean Energy</td><td>Gurgaon</td><td>Haryana</td></tr>
+         <tr><td>TA00043</td><td><a href=pages/TA000043.html>Serum Institute Of India Ltd.</a></td><td></td><td><a href=https://www.seruminstitute.com>www.seruminstitute.com</a></td><td>Life Sciences</td><td>Pune</td><td>Maharashtra</td></tr>
+         <tr><td>TA00044</td><td><a href=pages/TA000044.html>Sterling and Wilson Renewable Energy</a></td><td></td><td><a href=https://www.sterlingandwilsonre.com>www.sterlingandwilsonre.com</a></td><td>Clean Energy</td><td>Mumbai</td><td>Maharashtra</td></tr>
+         <tr><td>TA00045</td><td><a href=pages/TA000045.html>Strides</a></td><td></td><td><a href=https://www.strides.com>www.strides.com</a></td><td>Life Sciences</td><td>Bangalore</td><td>Karnataka </td></tr>
+         <tr><td>TA00046</td><td><a href=pages/TA000046.html>Sun Pharmaceuticals</a></td><td></td><td><a href=https://www.sunpharma.com>www.sunpharma.com</a></td><td>Life Sciences</td><td>Mumbai</td><td>Maharashtra</td></tr>
+         <tr><td>TA00047</td><td><a href=pages/TA000047.html>Suzlon Group</a></td><td></td><td><a href=https://www.suzlon.com>www.suzlon.com</a></td><td>Clean Energy</td><td>Pune</td><td>Maharashtra</td></tr>
+         <tr><td>TA00048</td><td><a href=pages/TA000048.html>Waaree Group</a></td><td></td><td><a href=https://www.waaree.com>www.waaree.com</a></td><td>Clean Energy</td><td>Mumbai </td><td>Maharashtra</td></tr>
+         <tr><td>TA00049</td><td><a href=pages/TA000049.html>Wockhardt Ltd.</a></td><td></td><td><a href=https://www.wockhardt.com>www.wockhardt.com</a></td><td>Life Sciences</td><td>Mumbai </td><td>Maharashtra </td></tr>
+         <tr><td>TA00050</td><td><a href=pages/TA000050.html>Zuventus Health Care Limited</a></td><td></td><td><a href=https://www.zuventus.co.in>www.zuventus.co.in</a></td><td>Life Sciences</td><td>Pune</td><td>Maharashtra</td></tr>          
      </tbody>
    </table>
  
@@ -144,4 +147,3 @@
    <script  src="js/script.js"></script>
 </body>
 </html>
-
