@@ -19,6 +19,15 @@ h6 {
   margin: 0;
 }
 
+.counter {
+  background: #fff;
+  box-shadow: 1px 2px 26px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  max-width: 7vw;
+  border-radius: 9px;
+}
+
+
 .container {
   max-width: 100vw;
   align-self: center;
@@ -83,7 +92,17 @@ a, a:hover, a:focus, a:active {
   padding: 6px 8px;
   text-decoration: none;
   font-size: 17px;
+  margin-top: 6px;
   margin-left: 10px;
+}
+
+.conta {
+  background: #fff;
+  box-shadow: 1px 2px 26px rgba(0, 0, 0, 0.2);
+  max-width: 100vw;
+  padding: 15px;
+  margin-top: 20px;
+
 }
 
 .cd-table-container{
